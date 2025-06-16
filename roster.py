@@ -8,9 +8,9 @@ for player in roster:
 
 #Import Pandas as pd and create a DataFrame 
 import pandas as pd
-roster = [ "Claude", "Brown", "Cadaeu"]
+
 #add Last Name header (changed Dataframe from roster to player)
-player = {"Last Name": roster,
+player = {"Last Name": ["Claude", "Brown", "Cadaeu"],
           "First name": ["Ty", "James", "Elliot"],
           "Height": [67, 610, 61],
           "Weight": [230, 215, 180]}
